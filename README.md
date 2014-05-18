@@ -10,11 +10,19 @@ How to use:
 
 The important files are the .workflows and the .applescript.
 
+To create the Finder Link Helper application:
+* Open the .applescript
+* Option key + File -> "Save As..." and select "Application" for the file format (at the bottom of the dialog)
+* Ctrl/right-click on the .app you made and "Show Contents"
+* Replace the "Info.plist" inside the Contents folder with the one from the project.
+
+(alternatively, you can just unzip the .zip'd version of the .app contained in the project)
+
 The .workflows are used to create OS X services which are available when you right-click on a file/files in the Finder.
 
 If you double-click the .workflows in the Finder, they will prompt to install (and end up in ~/Library/Services).
 
-They add two right-click menu choices (under the 'Services' section at the bottom:
+They add two right-click menu choices (under the 'Services' section at the bottom):
 * "Finder Link - Relative"
 * "Finder Link - Absolute"
 
